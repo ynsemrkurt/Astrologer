@@ -1,0 +1,14 @@
+C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\kotlin\com\google\ai\sample\feature\chat\ChatScreen.kt
+C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\kotlin\com\google\ai\sample\ui\theme\Theme.kt
+C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\kotlin\com\google\ai\sample\feature\multimodal\PhotoReasoningScreen.kt
+C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\kotlin\com\google\ai\sample\ui\theme\Color.kt
+C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\kotlin\com\google\ai\sample\feature\multimodal\PhotoReasoningUiState.kt
+C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\kotlin\com\google\ai\sample\ui\theme\Type.kt
+C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\kotlin\com\google\ai\sample\GenerativeAiViewModelFactory.kt
+C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\kotlin\com\google\ai\sample\MainActivity.kt
+C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\kotlin\com\google\ai\sample\feature\multimodal\PhotoReasoningViewModel.kt
+C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\kotlin\com\google\ai\sample\feature\chat\ChatMessage.kt
+C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\kotlin\com\google\ai\sample\feature\chat\ChatViewModel.kt
+C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\kotlin\com\google\ai\sample\feature\chat\ChatUiState.kt
+C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\kotlin\com\google\ai\sample\util\UriSaver.kt
+C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\kotlin\com\google\ai\sample\MenuScreen.kt
