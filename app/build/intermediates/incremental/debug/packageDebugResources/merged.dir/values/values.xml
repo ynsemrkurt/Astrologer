@@ -11,7 +11,7 @@
     <string name="action_send">Send</string>
     <string name="action_try">Try it</string>
     <string name="add_image">Add Image</string>
-    <string name="app_name">Generative AI Sample App</string>
+    <string name="app_name">Astrologer</string>
     <string name="chat_label">Message</string>
     <string name="menu_chat_description">Sample app demonstrating a conversational UI</string>
     <string name="menu_chat_title">Build multi-turn conversations (chat)</string>

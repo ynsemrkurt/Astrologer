@@ -13,7 +13,7 @@
      limitations under the License.
 -->
 <resources>
-    <string name="app_name">Generative AI Sample App</string>
+    <string name="app_name">Astrologer</string>
     <string name="action_go">Go</string>
     <string name="action_try">Try it</string>
 

@@ -61,6 +61,7 @@ import com.google.ai.sample.R
 import com.google.ai.sample.ui.theme.GenerativeAISample
 import kotlinx.coroutines.launch
 
+@Preview
 @Composable
 internal fun ChatRoute(
     chatViewModel: ChatViewModel = viewModel(factory = GenerativeViewModelFactory)

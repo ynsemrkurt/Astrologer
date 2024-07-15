@@ -27,8 +27,6 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.google.ai.sample.feature.chat.ChatRoute
-import com.google.ai.sample.feature.multimodal.PhotoReasoningRoute
-import com.google.ai.sample.feature.text.SummarizeRoute
 import com.google.ai.sample.ui.theme.GenerativeAISample
 
 class MainActivity : ComponentActivity() {
@@ -50,12 +48,6 @@ class MainActivity : ComponentActivity() {
                             MenuScreen(onItemClicked = { routeId ->
                                 navController.navigate(routeId)
                             })
-                        }
-                        composable("summarize") {
-                            SummarizeRoute()
-                        }
-                        composable("photo_reasoning") {
-                            PhotoReasoningRoute()
                         }
                         composable("chat") {
                             ChatRoute()
