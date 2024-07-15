@@ -16,7 +16,6 @@
 
 package com.google.ai.sample
 
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -45,8 +44,6 @@ fun MenuScreen(
     onItemClicked: (String) -> Unit = { }
 ) {
     val menuItems = listOf(
-        //MenuItem("summarize", R.string.menu_summarize_title, R.string.menu_summarize_description),
-        //MenuItem("photo_reasoning", R.string.menu_reason_title, R.string.menu_reason_description),
         MenuItem("chat", R.string.menu_chat_title, R.string.menu_chat_description)
     )
 
@@ -68,7 +65,7 @@ fun MenuScreen(
                         .fillMaxWidth()
                 ) {
                     Text(
-                        text = "Astrolog Ecem Hanım",
+                        text = "Astrolog Ecem",
                         style = MaterialTheme.typography.titleMedium
                     )
                     Text(

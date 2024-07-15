@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\AndroidManifest.xml:16:1-40:12
-INJECTED from C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\AndroidManifest.xml:16:1-40:12
-INJECTED from C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\AndroidManifest.xml:16:1-40:12
-INJECTED from C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\AndroidManifest.xml:16:1-40:12
+ADDED from C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\AndroidManifest.xml:16:1-39:12
+INJECTED from C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\AndroidManifest.xml:16:1-39:12
+INJECTED from C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\AndroidManifest.xml:16:1-39:12
+INJECTED from C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\AndroidManifest.xml:16:1-39:12
 MERGED from [androidx.navigation:navigation-common:2.7.5] C:\Users\yunus\.gradle\caches\transforms-3\7d434770f8c3cbc71457c7bbc2b82de3\transformed\navigation-common-2.7.5\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-runtime:2.7.5] C:\Users\yunus\.gradle\caches\transforms-3\f0ac77e972c82ad149911497f7b65caf\transformed\navigation-runtime-2.7.5\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-common-ktx:2.7.5] C:\Users\yunus\.gradle\caches\transforms-3\b8946e8a466adc1266c5f1c1fbffe5b8\transformed\navigation-common-ktx-2.7.5\AndroidManifest.xml:2:1-7:12
@@ -75,8 +75,8 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\yu
 	xmlns:android
 		ADDED from C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\AndroidManifest.xml:16:11-69
 application
-ADDED from C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\AndroidManifest.xml:19:5-38:19
-INJECTED from C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\AndroidManifest.xml:19:5-38:19
+ADDED from C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\AndroidManifest.xml:19:5-37:19
+INJECTED from C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\AndroidManifest.xml:19:5-37:19
 MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] C:\Users\yunus\.gradle\caches\transforms-3\c5f15119d7d3e16baf385eb79cfc8486\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] C:\Users\yunus\.gradle\caches\transforms-3\c5f15119d7d3e16baf385eb79cfc8486\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-test-manifest:1.5.4] C:\Users\yunus\.gradle\caches\transforms-3\68314d4a8017c555a698fef24b1b3827\transformed\ui-test-manifest-1.5.4\AndroidManifest.xml:22:5-26:19
@@ -104,33 +104,31 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\yu
 	android:fullBackupContent
 		ADDED from C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\AndroidManifest.xml:22:9-54
 	android:roundIcon
-		ADDED from C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\AndroidManifest.xml:25:9-54
+		ADDED from C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\AndroidManifest.xml:25:9-49
 	tools:targetApi
 		ADDED from C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\AndroidManifest.xml:27:9-29
 	android:icon
-		ADDED from C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\AndroidManifest.xml:23:9-43
+		ADDED from C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\AndroidManifest.xml:23:9-44
 	android:allowBackup
 		ADDED from C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\AndroidManifest.xml:20:9-35
 	android:dataExtractionRules
 		ADDED from C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\AndroidManifest.xml:21:9-65
 activity#com.google.ai.sample.MainActivity
-ADDED from C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\AndroidManifest.xml:28:9-37:20
-	android:label
-		ADDED from C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\AndroidManifest.xml:31:13-45
+ADDED from C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\AndroidManifest.xml:28:9-36:20
 	android:exported
 		ADDED from C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\AndroidManifest.xml:30:13-36
 	android:name
 		ADDED from C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\AndroidManifest.xml:29:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\AndroidManifest.xml:32:13-36:29
+ADDED from C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\AndroidManifest.xml:31:13-35:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\AndroidManifest.xml:33:17-69
+ADDED from C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\AndroidManifest.xml:32:17-69
 	android:name
-		ADDED from C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\AndroidManifest.xml:33:25-66
+		ADDED from C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\AndroidManifest.xml:32:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\AndroidManifest.xml:35:17-77
+ADDED from C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\AndroidManifest.xml:34:17-77
 	android:name
-		ADDED from C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\AndroidManifest.xml:35:27-74
+		ADDED from C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\AndroidManifest.xml:34:27-74
 uses-sdk
 INJECTED from C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\yunus\AndroidStudioProjects\ASTROLOG\app\src\main\AndroidManifest.xml

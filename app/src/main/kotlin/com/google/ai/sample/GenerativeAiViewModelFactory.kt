@@ -36,7 +36,6 @@ val GenerativeViewModelFactory = object : ViewModelProvider.Factory {
             when {
 
                 isAssignableFrom(ChatViewModel::class.java) -> {
-                    // Initialize a GenerativeModel with the `gemini-pro` AI model for chat
                     val generativeModel = GenerativeModel(
                         modelName = "gemini-pro",
                         apiKey = BuildConfig.apiKey,

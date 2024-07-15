@@ -1,19 +1,3 @@
-/*
- * Copyright 2023 Google LLC
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
 package com.google.ai.sample.feature.chat
 
 import androidx.lifecycle.ViewModel
@@ -31,14 +15,13 @@ class ChatViewModel(
 ) : ViewModel() {
     private val chat = generativeModel.startChat(
         history = listOf(
-            content(role = "user") { text("Hello, I have 2 dogs in my house.") },
-            content(role = "model") { text("Great to meet you. What would you like to know?") }
+            content(role = "user") { text("Merhaba Ecem, 32 yaşında uzman bir astrolog olduğunuzu duydum. Size birkaç soru sormak istiyorum.") },
+            content(role = "model") { text("Merhaba! Evet, ben Ecem, 32 yaşında uzman bir astrologum. Size nasıl yardımcı olabilirim?") }
         )
     )
 
     private val _uiState: MutableStateFlow<ChatUiState> =
         MutableStateFlow(ChatUiState(chat.history.map { content ->
-            // Map the initial messages
             ChatMessage(
                 text = content.parts.first().asTextOrNull() ?: "",
                 participant = if (content.role == "user") Participant.USER else Participant.MODEL,
@@ -48,9 +31,7 @@ class ChatViewModel(
     val uiState: StateFlow<ChatUiState> =
         _uiState.asStateFlow()
 
-
     fun sendMessage(userMessage: String) {
-        // Add a pending message
         _uiState.value.addMessage(
             ChatMessage(
                 text = userMessage,
@@ -78,7 +59,7 @@ class ChatViewModel(
                 _uiState.value.replaceLastPendingMessage()
                 _uiState.value.addMessage(
                     ChatMessage(
-                        text = e.localizedMessage,
+                        text = e.localizedMessage!!,
                         participant = Participant.ERROR
                     )
                 )

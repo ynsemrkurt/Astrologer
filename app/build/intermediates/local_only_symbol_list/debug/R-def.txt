@@ -8,6 +8,7 @@ color teal_200
 color teal_700
 color white
 drawable astrolog_ece_hanim
+drawable astrologia
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 mipmap ic_launcher
